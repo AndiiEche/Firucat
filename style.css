@@ -1,12 +1,23 @@
+/* Ajustes para el contenedor del SVG */
 .box {
-  width: 10462px;
-  height: 3000px;
+  width: 100%; /* Ajusta el ancho según sea necesario */
+  height: auto; /* Altura automática para adaptarse al contenido */
+  margin: 20px auto; /* Margen para centrar el contenedor */
+  position: relative; /* Posición relativa para colocar el SVG dentro */
 }
 
-.box .prototipo-funcional {
-  position: fixed;
-  width: 10462px;
-  height: 3000px;
-  top: 0;
-  left: 0;
+/* Estilos para el SVG */
+.prototipo-funcional {
+  width: 100%; /* Ajusta el ancho del SVG al 100% del contenedor */
+  height: auto; /* Altura automática para mantener la proporción */
+  display: block; /* Hace que el SVG se muestre como un bloque */
+}
+
+/* Otras reglas de estilo según sea necesario */
+/* Estilos para el contenedor del iframe */
+iframe {
+  width: 100vw; /* Ancho al 100% del viewport width */
+  height: 100vh; /* Altura al 100% del viewport height */
+  border: none; /* Elimina el borde del iframe si lo hay */
+  display: block; /* Hace que el iframe se muestre como un bloque */
 }
