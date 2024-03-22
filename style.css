@@ -1,0 +1,12 @@
+.box {
+  width: 10462px;
+  height: 3000px;
+}
+
+.box .prototipo-funcional {
+  position: fixed;
+  width: 10462px;
+  height: 3000px;
+  top: 0;
+  left: 0;
+}
